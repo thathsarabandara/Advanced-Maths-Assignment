@@ -221,10 +221,7 @@ body {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Nav Menu Essentials */
+
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -280,7 +277,6 @@ body {
   content: "\f105";
 }
 
-/* Nav Meu Container */
 #nav-menu-container {
   margin: 0;
 }
@@ -291,7 +287,6 @@ body {
   }
 }
 
-/* Nav Meu Styling */
 .nav-menu a {
   padding: 22px 15px 18px 15px;
   text-decoration: none;
@@ -345,7 +340,6 @@ body {
   margin: 0;
 }
 
-/* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
   right: 0;
@@ -447,7 +441,6 @@ body {
   display: none;
 }
 
-/* Mobile Nav body classes */
 body.mobile-nav-active {
   overflow: hidden;
 }
@@ -650,9 +643,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-/* ==================================================
-  Features Styling
-  ================================================== */
+
 
 .features {
   padding-bottom: 45px;
@@ -752,10 +743,10 @@ overleaf-container {
 
 
 /* ==================================================
-  Portfolio Styling
+  Video container
   ================================================== */
   iframe:hover {
-    opacity: 0.8; /* Adjust the opacity as needed */
+    opacity: 0.8; 
 }
 .video-container {
   display: grid;
